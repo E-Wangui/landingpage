@@ -15,7 +15,7 @@ body {
   min-height: 110vh;
 }
 .header {
-  background: url(./hero.png) center center/cover no-repeat;
+  background: url(./images/hero.png) center center/cover no-repeat;
   max-height: 85vh;
   display: flex;
   flex-direction: column;
@@ -354,11 +354,11 @@ width: 300%;
 
 }
 .checked::before{
-  content: url(./checkmark-green.svg);
+  content: url(./images/checkmark-green.svg);
 padding-right: 1rem;
 }
 .unchecked::before{
-  content: url(./checkmark-grey.svg);
+  content: url(./images/checkmark-grey.svg);
   padding-right: 1rem;
 }
 .contact{
@@ -497,18 +497,18 @@ footer{
 
 }
 .phone::before{
-  content: url(./call-outline.svg);
+  content: url(./images/call-outline.svg);
   width: 2rem;
   padding-right:.5rem;
  
 }
 .location::before{
-  content: url(./location-outline.svg);
+  content: url(./images/location-outline.svg);
   width: 2rem;
   padding-right:.5rem;
 }
 .mail::before{
-  content: url(./mail-outline.svg);
+  content: url(./images/mail-outline.svg);
   width: 2rem;
   padding-right:.5rem;
 }
@@ -625,8 +625,6 @@ flex-direction: column;
     }
     .appointment{
       width: 100%;
-      border: 1px solid red;
-
     }
     .inputs{
       width: 100%;
